@@ -8,7 +8,7 @@ class Solution {
       for (int row = 1; row < rows; row++) {
         if (strs[row][col].compareTo(strs[row - 1][col]) < 0) {
           deleteCount++;
-          break; // no need to check further in this column
+          break; 
         }
       }
     }
